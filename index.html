@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav button {
+            background-color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        nav button:hover {
+            background-color: #ddd;
+        }
+
+        /* Content */
+        .container {
+            padding: 20px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+</header>
+
+<nav>
+    <button onclick="alert('Login page coming soon!')">Login</button>
+    <button onclick="alert('This is a simple About Us section.')">About Us</button>
+</nav>
+
+<div class="container">
+    <h2>User Details</h2>
+    <p>Below is a sample table:</p>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rahul</td>
+            <td>rahul@example.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Priya</td>
+            <td>priya@example.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Amit</td>
+            <td>amit@example.com</td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+</body>
+</html>
